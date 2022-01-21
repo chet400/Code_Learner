@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .color{
+
+        color: white;
+    }
+    .border{
+        border-style: solid;color:rgb(161, 31, 92);
+    }
+    body{
+        background-color: rgb(6, 17, 37);
+    }
+</style>
+</head>
+<body>
+   
+    <div class="border">
+        <h2 class="color">&nbsp; 10.Write a C program that accepts two item’s weight (floating points' values ) and number of purchase (floating points' values) and calculate the average value of the items.&nbsp;&nbsp;
+
+
+  <h2>___________________________________________________________________________________</h2>
+  <div class="code-toolbar"><pre class="line-numbers language-sql"><code class="language-sql"><span class="token comment">#include &lt;stdio.h&gt;</span>
+    <span class="token keyword">int</span> main<span class="token punctuation">(</span><span class="token punctuation">)</span> 
+       {
+        <span class="token keyword">double</span> wi1<span class="token punctuation">,</span> ci1<span class="token punctuation">,</span> wi2<span class="token punctuation">,</span> ci2<span class="token punctuation">,</span> result<span class="token punctuation">;</span>
+        printf<span class="token punctuation">(</span><span class="token string">"Weight - Item1: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        scanf<span class="token punctuation">(</span><span class="token string">"%lf"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>wi1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        printf<span class="token punctuation">(</span><span class="token string">"No. of item1: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        scanf<span class="token punctuation">(</span><span class="token string">"%lf"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>ci1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        printf<span class="token punctuation">(</span><span class="token string">"Weight - Item2: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        scanf<span class="token punctuation">(</span><span class="token string">"%lf"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>wi2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        printf<span class="token punctuation">(</span><span class="token string">"No. of item2: "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        scanf<span class="token punctuation">(</span><span class="token string">"%lf"</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>ci2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        result <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>wi1 <span class="token operator">*</span> ci1<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token punctuation">(</span>wi2 <span class="token operator">*</span> ci2<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token punctuation">(</span>ci1 <span class="token operator">+</span> ci2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        printf<span class="token punctuation">(</span><span class="token string">"Average Value = %f\n"</span><span class="token punctuation">,</span> result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    }
+    <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><div class="toolbar"><div class="toolbar-item"></div></div></div>
+ 
+ <h1></h1>
+    </div>
+
+</body>
+</html>
